@@ -1,8 +1,6 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'to.mbr.api-first-poc-backend' is invalid and this project uses 'to.mbr.api_first_poc_backend' instead.
-
 # Getting Started
 
 ### Reference Documentation

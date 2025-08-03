@@ -1,4 +1,4 @@
-package to.mbr.api_first_poc_backend;
+package to.mbr.apifirst;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

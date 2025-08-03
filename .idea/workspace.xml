@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="fixed build config">
+    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="updated commons-lang3 to 3.18.0 to replace a vulnerable transient dependency from springdoc-openapi-starter-webmvc-ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/to/mbr/API_FIRST_POC_BACKEND/ApiFirstPocBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/to/mbr/apifirst/ApiFirstPocBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/to/mbr/API_FIRST_POC_BACKEND/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/to/mbr/apifirst/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/to/mbr/API_FIRST_POC_BACKEND/ApiFirstPocBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/to/mbr/apifirst/ApiFirstPocBackendApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pedambr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pedambr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pedambr/api-first-poc-backend-java.git",
-    "accountId": "7bf558e5-8ff4-4c1c-9faf-8131781e5697"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pedambr/api-first-poc-backend-java.git&quot;,
+    &quot;accountId&quot;: &quot;7bf558e5-8ff4-4c1c-9faf-8131781e5697&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -47,7 +50,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Security Analysis" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -58,21 +61,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="api-first-poc-backend-java" />
@@ -111,6 +114,7 @@
       <workItem from="1754208727088" duration="46000" />
       <workItem from="1754208780266" duration="670000" />
       <workItem from="1754209733702" duration="5259000" />
+      <workItem from="1754216004750" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="created initial setup with spring initializr">
       <option name="closed" value="true" />
@@ -192,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754215296179</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated commons-lang3 to 3.18.0 to replace a vulnerable transient dependency from springdoc-openapi-starter-webmvc-ui">
+      <option name="closed" value="true" />
+      <created>1754216201165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754216201165</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +232,7 @@
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="fixed build config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed build config" />
+    <MESSAGE value="updated commons-lang3 to 3.18.0 to replace a vulnerable transient dependency from springdoc-openapi-starter-webmvc-ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated commons-lang3 to 3.18.0 to replace a vulnerable transient dependency from springdoc-openapi-starter-webmvc-ui" />
   </component>
 </project>
