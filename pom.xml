@@ -88,6 +88,7 @@
                             <configOptions>
                                 <interfaceOnly>true</interfaceOnly>
                                 <useTags>true</useTags>
+                                <useJakartaEe>true</useJakartaEe>
                             </configOptions>
                             <apiPackage>com.poc.api.generated.api</apiPackage>
                             <modelPackage>com.poc.api.generated.model</modelPackage>
@@ -96,10 +97,10 @@
                             <generateModelTests>false</generateModelTests>
                             <output>${project.build.directory}/generated-sources</output>
                             <additionalProperties>
-                                <jakarta>true</jakarta>
                                 <library>spring-boot</library>
                                 <dateLibrary>java8</dateLibrary>
                                 <skipFormModel>true</skipFormModel>
+                                <useSpringBoot3>true</useSpringBoot3>
                             </additionalProperties>
                         </configuration>
                     </execution>
