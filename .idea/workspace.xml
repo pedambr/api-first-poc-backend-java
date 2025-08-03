@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="created initial setup with spring initializr">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="updated pom to use jakarta for openapi generator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -101,7 +102,7 @@
       <updated>1754208725548</updated>
       <workItem from="1754208727088" duration="46000" />
       <workItem from="1754208780266" duration="670000" />
-      <workItem from="1754209733702" duration="1477000" />
+      <workItem from="1754209733702" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="created initial setup with spring initializr">
       <option name="closed" value="true" />
@@ -111,7 +112,55 @@
       <option name="project" value="LOCAL" />
       <updated>1754209928681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added openapi-generator-maven-plugin to pom.xml">
+      <option name="closed" value="true" />
+      <created>1754212316791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754212316791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added .github/workflows/ci.yml">
+      <option name="closed" value="true" />
+      <created>1754212331935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754212331935</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated workspace.xml">
+      <option name="closed" value="true" />
+      <created>1754212346105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754212346105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="applied code format">
+      <option name="closed" value="true" />
+      <created>1754212442720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754212442720</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed ci.yml java version to 21">
+      <option name="closed" value="true" />
+      <created>1754212815545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754212815545</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated pom to use jakarta for openapi generator">
+      <option name="closed" value="true" />
+      <created>1754213834086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754213834086</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +168,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created initial setup with spring initializr" />
-    <option name="LAST_COMMIT_MESSAGE" value="created initial setup with spring initializr" />
+    <MESSAGE value="added openapi-generator-maven-plugin to pom.xml" />
+    <MESSAGE value="added .github/workflows/ci.yml" />
+    <MESSAGE value="updated workspace.xml" />
+    <MESSAGE value="applied code format" />
+    <MESSAGE value="changed ci.yml java version to 21" />
+    <MESSAGE value="updated pom to use jakarta for openapi generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pom to use jakarta for openapi generator" />
   </component>
 </project>
