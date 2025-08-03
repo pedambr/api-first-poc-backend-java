@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="update workspace.xml">
+    <list default="true" id="3ea021c6-a12e-4296-9ff0-1b6c3110303d" name="Changes" comment="fixed build config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,19 @@
     "accountId": "7bf558e5-8ff4-4c1c-9faf-8131781e5697"
   }
 }]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -61,7 +69,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,7 +110,7 @@
       <updated>1754208725548</updated>
       <workItem from="1754208727088" duration="46000" />
       <workItem from="1754208780266" duration="670000" />
-      <workItem from="1754209733702" duration="4346000" />
+      <workItem from="1754209733702" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary="created initial setup with spring initializr">
       <option name="closed" value="true" />
@@ -176,11 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1754214660054</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed build config">
+      <option name="closed" value="true" />
+      <created>1754215296179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754215296179</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created initial setup with spring initializr" />
@@ -192,6 +219,7 @@
     <MESSAGE value="updated pom to use jakarta for openapi generator" />
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="fixed build config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed build config" />
   </component>
 </project>
